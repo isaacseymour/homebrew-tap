@@ -13,7 +13,7 @@ the macOS keychain.
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/isaacseymour/pinentry-touchid/releases/download/v0.0.1/pinentry-touchid_0.0.1_macos_arm64.tar.gz"
-      sha256 "d53e8fe5c83ce346d8562f687dee3632d1c212026bf799d72cb0e47dd0cd6c3a"
+      sha256 "e846f911fc8290670d90949e9d9b28048274e79ddc98d7d2cf75eafd9afbc329"
 
       def install
         bin.install "pinentry-touchid"
@@ -21,7 +21,7 @@ the macOS keychain.
     end
     if Hardware::CPU.intel?
       url "https://github.com/isaacseymour/pinentry-touchid/releases/download/v0.0.1/pinentry-touchid_0.0.1_macos_amd64.tar.gz"
-      sha256 "d855dccb454bc40ed30761ea9e630c8ea9020dad7c4c6edd7f1afd44adc62bf6"
+      sha256 "7826c44d4363629db0b2cf45b0ae4d7eb8834c4d8d0aa49c6dff39da0b6dc920"
 
       def install
         bin.install "pinentry-touchid"
